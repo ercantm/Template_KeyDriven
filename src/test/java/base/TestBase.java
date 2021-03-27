@@ -20,6 +20,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.opera.OperaOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
@@ -98,15 +99,15 @@ public class TestBase {
 
 			WebDriverManager.chromedriver().setup();
 
-			//ChromeOptions options = new ChromeOptions();
-			//options.addArguments("--disable-popup-blocking");
-			//DesiredCapabilities capabilities = new DesiredCapabilities();
-			//capabilities.setCapability(ChromeOptions.CAPABILITY, options);
-			//driver = new ChromeDriver(capabilities);
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--disable-popup-blocking");
+			DesiredCapabilities capabilities = new DesiredCapabilities();
+			capabilities.setCapability(ChromeOptions.CAPABILITY, options);
+			driver = new ChromeDriver(capabilities);
 
 			// System.setProperty("webdriver.chrome.driver",
 			// "C:\\Users\\ercan\\Driver\\Chromedriver\\chromedriver.exe");
-			 driver = new ChromeDriver();
+			// driver = new ChromeDriver();
 			 log.debug(" Crome is  starting");
 		}
 		if (browser.toString().equalsIgnoreCase("edge")) {
@@ -158,18 +159,9 @@ public class TestBase {
 
 	}
 
-	public static void click(String location) {
-		if (location.endsWith("CSS")) {
-			driver.findElement(By.cssSelector(OR.getProperty(location))).click();
-		}
-
-		else if (location.endsWith("XPATH")) {
-			driver.findElement(By.xpath(OR.getProperty(location))).click();
-		} else if (location.endsWith("ID")) {
-			driver.findElement(By.id(OR.getProperty(location))).click();
-		}
-		// test.log(LogStatus.INFO, "Clicking on: " + location);
-
+	public static void click(By by) {
+		driver.findElement(by).click();
+		
 	}
 	public static boolean isElementPresent(By by) {
 
@@ -182,13 +174,24 @@ public class TestBase {
          System.out.println(e.getMessage());
 			return false;
 		}
-
-	}
-	@DataProvider(name = "DP1")
-	public Object[][] getData() {
-		Object[][] data = new Object[17][1];
-		return data;
+		
+		
+		
 
 	}
 
+	public static void select(By by,String text) {
+		
+		Select select=new  Select(driver.findElement(by));
+		 select.selectByVisibleText(text);
+		
+		
+		}      
+public static void SendText(By by,String text) {
+   driver.findElement(by).sendKeys( text);
+		
+		
+		}  
+	
+ 
 }
