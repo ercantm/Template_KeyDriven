@@ -1,0 +1,361 @@
+22:51:25,655 DEBUG devpinoyLogger:51 -  file are lounching
+22:51:27,852 DEBUG devpinoyLogger:105 -  Crome is  starting
+22:51:31,660 DEBUG devpinoyLogger:126 - Test URl is lauching
+22:51:31,811 DEBUG devpinoyLogger:128 -  windows geting full screan get implemtting implicit wait 
+22:51:31,915 DEBUG devpinoyLogger:14 - OTRT login Test Starting 
+22:51:32,436 DEBUG devpinoyLogger:30 -  Test succesfully executed 
+22:51:32,629 DEBUG devpinoyLogger:139 -  Test execustion completed
+23:04:16,101 DEBUG devpinoyLogger:51 -  file are lounching
+23:04:17,738 DEBUG devpinoyLogger:105 -  Crome is  starting
+23:04:24,181 DEBUG devpinoyLogger:126 - Test URl is lauching
+23:04:24,306 DEBUG devpinoyLogger:128 -  windows geting full screan get implemtting implicit wait 
+23:04:24,346 DEBUG devpinoyLogger:15 - OTRT login Test Starting 
+23:04:24,855 DEBUG devpinoyLogger:31 -  Test succesfully executed 
+23:04:26,433 DEBUG devpinoyLogger:139 -  Test execustion completed
+23:05:08,765 DEBUG devpinoyLogger:51 -  file are lounching
+23:05:10,493 DEBUG devpinoyLogger:105 -  Crome is  starting
+23:05:13,177 DEBUG devpinoyLogger:126 - Test URl is lauching
+23:05:13,310 DEBUG devpinoyLogger:128 -  windows geting full screan get implemtting implicit wait 
+23:05:13,362 DEBUG devpinoyLogger:15 - OTRT login Test Starting 
+23:05:13,888 DEBUG devpinoyLogger:31 -  Test succesfully executed 
+23:05:15,454 DEBUG devpinoyLogger:139 -  Test execustion completed
+23:07:00,800 DEBUG devpinoyLogger:51 -  file are lounching
+23:07:02,566 DEBUG devpinoyLogger:105 -  Crome is  starting
+23:07:05,271 DEBUG devpinoyLogger:126 - Test URl is lauching
+23:07:05,406 DEBUG devpinoyLogger:128 -  windows geting full screan get implemtting implicit wait 
+23:07:05,459 DEBUG devpinoyLogger:15 - OTRT login Test Starting 
+23:07:05,975 DEBUG devpinoyLogger:31 -  Test succesfully executed 
+23:07:07,495 DEBUG devpinoyLogger:139 -  Test execustion completed
+23:07:38,259 DEBUG devpinoyLogger:51 -  file are lounching
+23:07:39,934 DEBUG devpinoyLogger:105 -  Crome is  starting
+23:07:42,742 DEBUG devpinoyLogger:126 - Test URl is lauching
+23:07:42,877 DEBUG devpinoyLogger:128 -  windows geting full screan get implemtting implicit wait 
+23:07:42,917 DEBUG devpinoyLogger:15 - OTRT login Test Starting 
+23:07:43,446 DEBUG devpinoyLogger:31 -  Test succesfully executed 
+23:07:43,765 DEBUG devpinoyLogger:35 - ADD new Quote   bottonu is found
+23:07:44,064 DEBUG devpinoyLogger:139 -  Test execustion completed
+23:19:38,477 DEBUG devpinoyLogger:51 -  file are lounching
+23:19:40,416 DEBUG devpinoyLogger:105 -  Crome is  starting
+23:19:43,640 DEBUG devpinoyLogger:126 - Test URl is lauching
+23:19:43,762 DEBUG devpinoyLogger:128 -  windows geting full screan get implemtting implicit wait 
+23:19:43,796 DEBUG devpinoyLogger:15 - OTRT login Test Starting 
+23:19:44,358 DEBUG devpinoyLogger:31 -  Test succesfully executed 
+23:19:44,660 DEBUG devpinoyLogger:37 - ADD new Quote   bottonu is found
+23:19:44,733 DEBUG devpinoyLogger:139 -  Test execustion completed
+23:24:44,669 DEBUG devpinoyLogger:51 -  file are lounching
+23:24:46,321 DEBUG devpinoyLogger:105 -  Crome is  starting
+23:24:49,393 DEBUG devpinoyLogger:126 - Test URl is lauching
+23:24:49,531 DEBUG devpinoyLogger:128 -  windows geting full screan get implemtting implicit wait 
+23:24:49,566 DEBUG devpinoyLogger:15 - OTRT login Test Starting 
+23:24:50,075 DEBUG devpinoyLogger:31 -  Test succesfully executed 
+23:24:50,401 DEBUG devpinoyLogger:37 - ADD new Quote   bottonu is found
+23:24:50,522 DEBUG devpinoyLogger:139 -  Test execustion completed
+23:25:37,851 DEBUG devpinoyLogger:51 -  file are lounching
+23:25:40,448 DEBUG devpinoyLogger:90 -  Internet Explorer  starting
+23:25:41,296 DEBUG devpinoyLogger:126 - Test URl is lauching
+23:25:41,328 DEBUG devpinoyLogger:128 -  windows geting full screan get implemtting implicit wait 
+23:25:41,399 DEBUG devpinoyLogger:15 - OTRT login Test Starting 
+23:25:51,877 DEBUG devpinoyLogger:139 -  Test execustion completed
+23:26:08,556 DEBUG devpinoyLogger:51 -  file are lounching
+23:26:30,292 DEBUG devpinoyLogger:126 - Test URl is lauching
+23:26:30,437 DEBUG devpinoyLogger:128 -  windows geting full screan get implemtting implicit wait 
+23:26:30,481 DEBUG devpinoyLogger:15 - OTRT login Test Starting 
+23:26:30,986 DEBUG devpinoyLogger:31 -  Test succesfully executed 
+23:26:31,238 DEBUG devpinoyLogger:37 - ADD new Quote   bottonu is found
+23:26:31,370 DEBUG devpinoyLogger:139 -  Test execustion completed
+23:26:45,991 DEBUG devpinoyLogger:51 -  file are lounching
+23:26:55,524 DEBUG devpinoyLogger:51 -  file are lounching
+23:27:04,683 DEBUG devpinoyLogger:51 -  file are lounching
+01:10:56,247 DEBUG devpinoyLogger:54 -  file are lounching
+01:10:58,492 DEBUG devpinoyLogger:108 -  Crome is  starting
+01:11:04,061 DEBUG devpinoyLogger:129 - Test URl is lauching
+01:11:04,201 DEBUG devpinoyLogger:131 -  windows geting full screan get implemtting implicit wait 
+01:11:04,283 DEBUG devpinoyLogger:13 - OTRT creating new quote  Test Starting 
+01:11:04,289 DEBUG devpinoyLogger:13 - OTRT creating new quote  Test Starting 
+01:11:04,294 DEBUG devpinoyLogger:13 - OTRT creating new quote  Test Starting 
+01:11:04,450 DEBUG devpinoyLogger:142 -  Test execustion completed
+02:17:11,521 DEBUG devpinoyLogger:55 -  file are lounching
+02:17:13,438 DEBUG devpinoyLogger:109 -  Crome is  starting
+02:17:16,249 DEBUG devpinoyLogger:130 - Test URl is lauching
+02:17:16,378 DEBUG devpinoyLogger:132 -  windows geting full screan get implemtting implicit wait 
+02:17:16,458 DEBUG devpinoyLogger:16 - OTRT creating new quote  Test Starting 
+02:17:26,508 DEBUG devpinoyLogger:16 - OTRT creating new quote  Test Starting 
+02:17:28,447 DEBUG devpinoyLogger:16 - OTRT creating new quote  Test Starting 
+02:17:53,308 DEBUG devpinoyLogger:55 -  file are lounching
+02:17:54,920 DEBUG devpinoyLogger:109 -  Crome is  starting
+02:17:57,384 DEBUG devpinoyLogger:130 - Test URl is lauching
+02:17:57,521 DEBUG devpinoyLogger:132 -  windows geting full screan get implemtting implicit wait 
+02:17:57,563 DEBUG devpinoyLogger:15 - OTRT login Test Starting 
+02:17:58,118 DEBUG devpinoyLogger:31 -  Test succesfully executed 
+02:17:58,334 DEBUG devpinoyLogger:37 - ADD new Quote   bottonu is found
+02:17:58,421 DEBUG devpinoyLogger:144 -  Test execustion completed
+02:17:58,537 DEBUG devpinoyLogger:16 - OTRT creating new quote  Test Starting 
+02:17:58,573 DEBUG devpinoyLogger:16 - OTRT creating new quote  Test Starting 
+02:17:58,598 DEBUG devpinoyLogger:16 - OTRT creating new quote  Test Starting 
+02:21:54,528 DEBUG devpinoyLogger:55 -  file are lounching
+02:21:56,144 DEBUG devpinoyLogger:109 -  Crome is  starting
+02:21:58,821 DEBUG devpinoyLogger:130 - Test URl is lauching
+02:21:58,956 DEBUG devpinoyLogger:132 -  windows geting full screan get implemtting implicit wait 
+02:21:58,990 DEBUG devpinoyLogger:15 - OTRT login Test Starting 
+02:21:59,508 DEBUG devpinoyLogger:31 -  Test succesfully executed 
+02:21:59,733 DEBUG devpinoyLogger:37 - ADD new Quote   bottonu is found
+02:21:59,838 DEBUG devpinoyLogger:144 -  Test execustion completed
+02:21:59,904 DEBUG devpinoyLogger:16 - OTRT creating new quote  Test Starting 
+02:21:59,916 DEBUG devpinoyLogger:16 - OTRT creating new quote  Test Starting 
+02:21:59,927 DEBUG devpinoyLogger:16 - OTRT creating new quote  Test Starting 
+02:22:54,781 DEBUG devpinoyLogger:55 -  file are lounching
+02:22:56,425 DEBUG devpinoyLogger:109 -  Crome is  starting
+02:23:01,073 DEBUG devpinoyLogger:130 - Test URl is lauching
+02:23:01,208 DEBUG devpinoyLogger:132 -  windows geting full screan get implemtting implicit wait 
+02:23:01,575 DEBUG devpinoyLogger:22 - OTRT creating new quote  Test Starting 
+02:23:32,999 DEBUG devpinoyLogger:144 -  Test execustion completed
+02:26:29,484 DEBUG devpinoyLogger:56 -  file are lounching
+02:26:31,074 DEBUG devpinoyLogger:110 -  Crome is  starting
+02:26:33,797 DEBUG devpinoyLogger:131 - Test URl is lauching
+02:26:33,920 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+02:26:33,959 DEBUG devpinoyLogger:15 - OTRT login Test Starting 
+02:26:34,469 DEBUG devpinoyLogger:31 -  Test succesfully executed 
+02:26:34,699 DEBUG devpinoyLogger:37 - ADD new Quote   bottonu is found
+02:26:34,736 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+02:26:45,415 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+02:26:56,208 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+02:27:07,101 DEBUG devpinoyLogger:145 -  Test execustion completed
+02:31:10,946 DEBUG devpinoyLogger:56 -  file are lounching
+02:31:12,578 DEBUG devpinoyLogger:110 -  Crome is  starting
+02:31:17,516 DEBUG devpinoyLogger:131 - Test URl is lauching
+02:31:17,648 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+02:31:17,686 DEBUG devpinoyLogger:15 - OTRT login Test Starting 
+02:31:18,178 DEBUG devpinoyLogger:31 -  Test succesfully executed 
+02:31:18,368 DEBUG devpinoyLogger:37 - ADD new Quote   bottonu is found
+02:31:18,404 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+02:31:29,069 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+02:31:39,922 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+02:31:50,806 DEBUG devpinoyLogger:145 -  Test execustion completed
+02:36:57,247 DEBUG devpinoyLogger:56 -  file are lounching
+02:36:58,846 DEBUG devpinoyLogger:110 -  Crome is  starting
+02:37:01,446 DEBUG devpinoyLogger:131 - Test URl is lauching
+02:37:01,582 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+02:37:01,634 DEBUG devpinoyLogger:15 - OTRT login Test Starting 
+02:37:02,179 DEBUG devpinoyLogger:31 -  Test succesfully executed 
+02:37:02,428 DEBUG devpinoyLogger:37 - ADD new Quote   bottonu is found
+02:37:47,878 DEBUG devpinoyLogger:56 -  file are lounching
+02:37:49,454 DEBUG devpinoyLogger:110 -  Crome is  starting
+02:37:52,222 DEBUG devpinoyLogger:131 - Test URl is lauching
+02:37:52,356 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+02:37:52,396 DEBUG devpinoyLogger:15 - OTRT login Test Starting 
+02:37:52,889 DEBUG devpinoyLogger:31 -  Test succesfully executed 
+02:37:53,080 DEBUG devpinoyLogger:37 - ADD new Quote   bottonu is found
+02:37:53,117 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+02:38:14,381 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+02:38:35,787 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+02:38:57,408 DEBUG devpinoyLogger:145 -  Test execustion completed
+02:40:26,995 DEBUG devpinoyLogger:56 -  file are lounching
+02:40:28,594 DEBUG devpinoyLogger:110 -  Crome is  starting
+02:40:31,472 DEBUG devpinoyLogger:131 - Test URl is lauching
+02:40:31,600 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+02:40:31,641 DEBUG devpinoyLogger:15 - OTRT login Test Starting 
+02:40:32,166 DEBUG devpinoyLogger:31 -  Test succesfully executed 
+02:40:32,383 DEBUG devpinoyLogger:37 - ADD new Quote   bottonu is found
+02:40:32,417 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+02:40:53,682 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+02:41:15,095 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+02:41:36,501 DEBUG devpinoyLogger:145 -  Test execustion completed
+02:42:35,391 DEBUG devpinoyLogger:56 -  file are lounching
+02:42:37,030 DEBUG devpinoyLogger:110 -  Crome is  starting
+02:42:41,687 DEBUG devpinoyLogger:131 - Test URl is lauching
+02:42:41,812 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+02:42:41,846 DEBUG devpinoyLogger:15 - OTRT login Test Starting 
+02:42:42,395 DEBUG devpinoyLogger:31 -  Test succesfully executed 
+02:42:42,688 DEBUG devpinoyLogger:37 - ADD new Quote   bottonu is found
+02:42:42,726 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+02:43:03,966 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+02:43:25,346 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+02:43:46,778 DEBUG devpinoyLogger:145 -  Test execustion completed
+02:46:44,567 DEBUG devpinoyLogger:56 -  file are lounching
+02:46:46,190 DEBUG devpinoyLogger:110 -  Crome is  starting
+02:46:48,830 DEBUG devpinoyLogger:131 - Test URl is lauching
+02:46:48,962 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+02:46:49,027 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+02:46:49,030 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+02:46:49,032 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+02:46:49,185 DEBUG devpinoyLogger:145 -  Test execustion completed
+03:27:53,571 DEBUG devpinoyLogger:56 -  file are lounching
+03:27:55,630 DEBUG devpinoyLogger:110 -  Crome is  starting
+03:27:58,351 DEBUG devpinoyLogger:131 - Test URl is lauching
+03:27:58,477 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+03:27:58,656 DEBUG devpinoyLogger:145 -  Test execustion completed
+03:45:22,315 DEBUG devpinoyLogger:56 -  file are lounching
+03:45:23,937 DEBUG devpinoyLogger:110 -  Crome is  starting
+03:45:26,854 DEBUG devpinoyLogger:131 - Test URl is lauching
+03:45:26,975 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+03:45:27,172 DEBUG devpinoyLogger:145 -  Test execustion completed
+03:46:06,469 DEBUG devpinoyLogger:56 -  file are lounching
+03:46:08,144 DEBUG devpinoyLogger:110 -  Crome is  starting
+03:46:12,613 DEBUG devpinoyLogger:131 - Test URl is lauching
+03:46:12,746 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+03:46:12,903 DEBUG devpinoyLogger:145 -  Test execustion completed
+04:07:52,013 DEBUG devpinoyLogger:56 -  file are lounching
+04:07:53,664 DEBUG devpinoyLogger:110 -  Crome is  starting
+04:07:56,521 DEBUG devpinoyLogger:131 - Test URl is lauching
+04:07:56,643 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+04:07:56,835 DEBUG devpinoyLogger:145 -  Test execustion completed
+04:09:57,959 DEBUG devpinoyLogger:56 -  file are lounching
+04:09:59,616 DEBUG devpinoyLogger:110 -  Crome is  starting
+04:10:02,185 DEBUG devpinoyLogger:131 - Test URl is lauching
+04:10:02,311 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+04:10:02,526 DEBUG devpinoyLogger:145 -  Test execustion completed
+04:12:10,514 DEBUG devpinoyLogger:56 -  file are lounching
+04:12:12,159 DEBUG devpinoyLogger:110 -  Crome is  starting
+04:12:14,540 DEBUG devpinoyLogger:131 - Test URl is lauching
+04:12:14,660 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+04:12:14,718 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+04:12:24,753 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+04:12:35,012 DEBUG devpinoyLogger:145 -  Test execustion completed
+04:15:15,596 DEBUG devpinoyLogger:56 -  file are lounching
+04:15:17,225 DEBUG devpinoyLogger:110 -  Crome is  starting
+04:15:19,812 DEBUG devpinoyLogger:131 - Test URl is lauching
+04:15:19,942 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+04:15:20,009 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+04:15:30,056 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+04:15:40,151 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+04:15:50,192 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+04:16:00,331 DEBUG devpinoyLogger:145 -  Test execustion completed
+04:34:51,570 DEBUG devpinoyLogger:56 -  file are lounching
+04:34:53,477 DEBUG devpinoyLogger:110 -  Crome is  starting
+04:34:56,066 DEBUG devpinoyLogger:131 - Test URl is lauching
+04:34:56,187 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+04:34:56,287 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+04:35:06,333 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+04:35:16,388 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+10:47:03,167 DEBUG devpinoyLogger:56 -  file are lounching
+10:47:17,231 DEBUG devpinoyLogger:56 -  file are lounching
+10:47:18,916 DEBUG devpinoyLogger:110 -  Crome is  starting
+10:47:27,866 DEBUG devpinoyLogger:131 - Test URl is lauching
+10:47:27,990 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+10:47:28,071 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+10:47:38,163 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+10:47:48,231 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+10:47:58,282 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+10:48:08,422 DEBUG devpinoyLogger:145 -  Test execustion completed
+10:49:40,960 DEBUG devpinoyLogger:56 -  file are lounching
+10:49:42,567 DEBUG devpinoyLogger:110 -  Crome is  starting
+10:49:49,131 DEBUG devpinoyLogger:131 - Test URl is lauching
+10:49:49,260 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+10:49:49,329 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+10:50:30,999 DEBUG devpinoyLogger:56 -  file are lounching
+10:50:32,654 DEBUG devpinoyLogger:110 -  Crome is  starting
+10:50:36,439 DEBUG devpinoyLogger:131 - Test URl is lauching
+10:50:36,562 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+10:50:36,632 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+10:50:46,730 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+10:50:56,825 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+10:51:06,846 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+10:51:16,961 DEBUG devpinoyLogger:145 -  Test execustion completed
+10:52:00,116 DEBUG devpinoyLogger:56 -  file are lounching
+10:52:01,754 DEBUG devpinoyLogger:110 -  Crome is  starting
+10:52:10,245 DEBUG devpinoyLogger:131 - Test URl is lauching
+10:52:10,371 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+10:52:10,443 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+10:52:20,500 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+10:52:30,562 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+10:52:40,623 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+10:52:50,754 DEBUG devpinoyLogger:145 -  Test execustion completed
+10:53:46,996 DEBUG devpinoyLogger:56 -  file are lounching
+10:53:48,615 DEBUG devpinoyLogger:110 -  Crome is  starting
+10:53:52,344 DEBUG devpinoyLogger:131 - Test URl is lauching
+10:53:52,474 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+10:53:52,508 DEBUG devpinoyLogger:19 - OTRT login Test Starting 
+10:53:53,014 DEBUG devpinoyLogger:37 -  Test succesfully executed 
+10:53:53,432 DEBUG devpinoyLogger:43 - ADD new Quote   bottonu is found
+10:53:53,456 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+10:54:14,691 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+10:54:36,215 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+10:54:37,407 DEBUG devpinoyLogger:19 - OTRT creating new quote  Test Starting 
+10:54:59,065 DEBUG devpinoyLogger:145 -  Test execustion completed
+11:05:17,000 DEBUG devpinoyLogger:56 -  file are lounching
+11:24:39,635 DEBUG devpinoyLogger:56 -  file are lounching
+11:24:41,380 DEBUG devpinoyLogger:110 -  Crome is  starting
+11:24:45,583 DEBUG devpinoyLogger:131 - Test URl is lauching
+11:24:45,723 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+11:24:46,022 DEBUG devpinoyLogger:145 -  Test execustion completed
+11:25:27,493 DEBUG devpinoyLogger:56 -  file are lounching
+11:25:29,345 DEBUG devpinoyLogger:110 -  Crome is  starting
+11:25:41,383 DEBUG devpinoyLogger:131 - Test URl is lauching
+11:25:41,529 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+11:25:45,741 DEBUG devpinoyLogger:145 -  Test execustion completed
+11:28:00,642 DEBUG devpinoyLogger:56 -  file are lounching
+11:28:02,421 DEBUG devpinoyLogger:110 -  Crome is  starting
+11:28:06,338 DEBUG devpinoyLogger:131 - Test URl is lauching
+11:28:06,470 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+11:28:06,533 DEBUG devpinoyLogger:19 - OTRT login Test Starting 
+11:28:07,037 DEBUG devpinoyLogger:37 -  Test succesfully executed 
+11:28:07,434 DEBUG devpinoyLogger:43 - ADD new Quote   bottonu is found
+11:28:11,780 DEBUG devpinoyLogger:145 -  Test execustion completed
+11:29:23,167 DEBUG devpinoyLogger:56 -  file are lounching
+11:29:24,925 DEBUG devpinoyLogger:110 -  Crome is  starting
+11:29:29,938 DEBUG devpinoyLogger:131 - Test URl is lauching
+11:29:30,060 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+11:29:50,514 DEBUG devpinoyLogger:145 -  Test execustion completed
+11:35:34,303 DEBUG devpinoyLogger:56 -  file are lounching
+11:35:36,024 DEBUG devpinoyLogger:110 -  Crome is  starting
+11:35:39,246 DEBUG devpinoyLogger:131 - Test URl is lauching
+11:35:39,367 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+11:35:39,413 DEBUG devpinoyLogger:19 - OTRT login Test Starting 
+11:35:40,281 DEBUG devpinoyLogger:37 -  Test succesfully executed 
+11:35:40,784 DEBUG devpinoyLogger:43 - ADD new Quote   bottonu is found
+11:35:50,530 DEBUG devpinoyLogger:145 -  Test execustion completed
+11:36:52,544 DEBUG devpinoyLogger:56 -  file are lounching
+11:36:54,315 DEBUG devpinoyLogger:110 -  Crome is  starting
+11:36:59,905 DEBUG devpinoyLogger:131 - Test URl is lauching
+11:37:00,041 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+11:37:00,090 DEBUG devpinoyLogger:19 - OTRT login Test Starting 
+11:37:00,747 DEBUG devpinoyLogger:37 -  Test succesfully executed 
+11:37:01,803 DEBUG devpinoyLogger:43 - ADD new Quote   bottonu is found
+11:37:31,662 DEBUG devpinoyLogger:56 -  file are lounching
+11:37:33,423 DEBUG devpinoyLogger:110 -  Crome is  starting
+11:37:39,441 DEBUG devpinoyLogger:131 - Test URl is lauching
+11:37:39,570 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+11:37:39,631 DEBUG devpinoyLogger:19 - OTRT login Test Starting 
+11:37:40,337 DEBUG devpinoyLogger:37 -  Test succesfully executed 
+11:37:40,790 DEBUG devpinoyLogger:43 - ADD new Quote   bottonu is found
+11:38:18,721 DEBUG devpinoyLogger:56 -  file are lounching
+11:38:20,446 DEBUG devpinoyLogger:110 -  Crome is  starting
+11:38:28,780 DEBUG devpinoyLogger:131 - Test URl is lauching
+11:38:28,932 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+11:38:28,994 DEBUG devpinoyLogger:19 - OTRT login Test Starting 
+11:38:29,492 DEBUG devpinoyLogger:37 -  Test succesfully executed 
+11:38:29,883 DEBUG devpinoyLogger:43 - ADD new Quote   bottonu is found
+11:57:08,509 DEBUG devpinoyLogger:56 -  file are lounching
+11:57:10,370 DEBUG devpinoyLogger:110 -  Crome is  starting
+11:57:13,314 DEBUG devpinoyLogger:131 - Test URl is lauching
+11:57:13,454 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+11:57:13,502 DEBUG devpinoyLogger:19 - OTRT login Test Starting 
+11:57:13,993 DEBUG devpinoyLogger:37 -  Test succesfully executed 
+11:57:14,239 DEBUG devpinoyLogger:43 - ADD new Quote   bottonu is found
+11:57:57,550 DEBUG devpinoyLogger:145 -  Test execustion completed
+12:03:57,710 DEBUG devpinoyLogger:56 -  file are lounching
+12:03:59,353 DEBUG devpinoyLogger:110 -  Crome is  starting
+12:04:05,976 DEBUG devpinoyLogger:131 - Test URl is lauching
+12:04:06,109 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+12:04:06,141 DEBUG devpinoyLogger:19 - OTRT login Test Starting 
+12:04:06,893 DEBUG devpinoyLogger:37 -  Test succesfully executed 
+12:04:07,667 DEBUG devpinoyLogger:43 - ADD new Quote   bottonu is found
+12:04:41,760 DEBUG devpinoyLogger:145 -  Test execustion completed
+12:12:07,985 DEBUG devpinoyLogger:56 -  file are lounching
+12:12:09,615 DEBUG devpinoyLogger:110 -  Crome is  starting
+12:12:19,131 DEBUG devpinoyLogger:131 - Test URl is lauching
+12:12:19,258 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+12:12:19,304 DEBUG devpinoyLogger:19 - OTRT login Test Starting 
+12:12:20,351 DEBUG devpinoyLogger:37 -  Test succesfully executed 
+12:12:21,013 DEBUG devpinoyLogger:43 - ADD new Quote   bottonu is found
+12:12:33,722 DEBUG devpinoyLogger:145 -  Test execustion completed
+12:13:52,478 DEBUG devpinoyLogger:56 -  file are lounching
+12:13:54,166 DEBUG devpinoyLogger:110 -  Crome is  starting
+12:13:58,705 DEBUG devpinoyLogger:131 - Test URl is lauching
+12:13:58,835 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+12:14:11,435 DEBUG devpinoyLogger:145 -  Test execustion completed
+12:15:11,108 DEBUG devpinoyLogger:56 -  file are lounching
+12:15:12,697 DEBUG devpinoyLogger:110 -  Crome is  starting
+12:15:17,978 DEBUG devpinoyLogger:131 - Test URl is lauching
+12:15:18,114 DEBUG devpinoyLogger:133 -  windows geting full screan get implemtting implicit wait 
+12:15:21,079 DEBUG devpinoyLogger:145 -  Test execustion completed
