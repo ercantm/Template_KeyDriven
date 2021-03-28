@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.824">
+           time="0.706">
   <properties />
   
   
-            <testcase name="loginAsWorker" time="0.824" classname="testCases.LoginTest" />
+            <testcase name="loginAsWorker" time="0.706" classname="testCases.LoginTest" />
       
 </testsuite>

@@ -17,12 +17,12 @@
       <![CDATA[CurtainTrackOnly   test is succefully tested]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-03-28T11:48:14 EDT" name="Suite" finished-at="2021-03-28T11:48:20 EDT" duration-ms="5746">
+  <suite started-at="2021-03-28T11:57:40 EDT" name="Suite" finished-at="2021-03-28T11:57:46 EDT" duration-ms="5501">
     <groups>
     </groups>
-    <test started-at="2021-03-28T11:48:14 EDT" name="OTRT Login Test" finished-at="2021-03-28T11:48:15 EDT" duration-ms="1098">
+    <test started-at="2021-03-28T11:57:40 EDT" name="OTRT Login Test" finished-at="2021-03-28T11:57:41 EDT" duration-ms="995">
       <class name="testCases.LoginTest">
-        <test-method signature="loginAsWorker()[pri:0, instance:testCases.LoginTest@13f17eb4]" started-at="2021-03-28T11:48:14 EDT" name="loginAsWorker" finished-at="2021-03-28T11:48:15 EDT" duration-ms="824" status="PASS">
+        <test-method signature="loginAsWorker()[pri:0, instance:testCases.LoginTest@13f17eb4]" started-at="2021-03-28T11:57:40 EDT" name="loginAsWorker" finished-at="2021-03-28T11:57:41 EDT" duration-ms="706" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[ valid email is entered]]>
@@ -40,20 +40,20 @@
         </test-method> <!-- loginAsWorker -->
       </class> <!-- testCases.LoginTest -->
     </test> <!-- OTRT Login Test -->
-    <test started-at="2021-03-28T11:48:15 EDT" name="Createa Straight Track Test" finished-at="2021-03-28T11:48:20 EDT" duration-ms="4631">
+    <test started-at="2021-03-28T11:57:41 EDT" name="Createa Straight Track Test" finished-at="2021-03-28T11:57:46 EDT" duration-ms="4489">
       <class name="testCases.CreateNewQuoteTest">
-        <test-method is-config="true" signature="setUP()[pri:0, instance:testCases.CreateNewQuoteTest@20f12539]" started-at="2021-03-28T11:48:06 EDT" name="setUP" finished-at="2021-03-28T11:48:14 EDT" duration-ms="7381" status="PASS">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:testCases.CreateNewQuoteTest@20f12539]" started-at="2021-03-28T11:57:34 EDT" name="setUP" finished-at="2021-03-28T11:57:40 EDT" duration-ms="6798" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method signature="CurtainTrackOnly()[pri:0, instance:testCases.CreateNewQuoteTest@20f12539]" started-at="2021-03-28T11:48:15 EDT" name="CurtainTrackOnly" finished-at="2021-03-28T11:48:20 EDT" duration-ms="4598" status="PASS">
+        <test-method signature="CurtainTrackOnly()[pri:0, instance:testCases.CreateNewQuoteTest@20f12539]" started-at="2021-03-28T11:57:41 EDT" name="CurtainTrackOnly" finished-at="2021-03-28T11:57:46 EDT" duration-ms="4460" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[CurtainTrackOnly   test is succefully tested]]>
             </line>
           </reporter-output>
         </test-method> <!-- CurtainTrackOnly -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CreateNewQuoteTest@20f12539]" started-at="2021-03-28T11:48:20 EDT" name="tearDown" finished-at="2021-03-28T11:48:20 EDT" duration-ms="84" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CreateNewQuoteTest@20f12539]" started-at="2021-03-28T11:57:46 EDT" name="tearDown" finished-at="2021-03-28T11:57:46 EDT" duration-ms="126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

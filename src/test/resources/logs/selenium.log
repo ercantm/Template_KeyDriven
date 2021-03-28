@@ -977,3 +977,18 @@
 11:48:20,070 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
 11:48:20,070 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ercan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
 11:48:20,186 DEBUG devpinoyLogger:155 -  Test execustion completed
+11:57:34,025 DEBUG devpinoyLogger:66 -  file are lounching
+11:57:35,903 DEBUG devpinoyLogger:120 -  Crome is  starting
+11:57:40,687 DEBUG devpinoyLogger:141 - Test URl is lauching
+11:57:40,810 DEBUG devpinoyLogger:143 -  windows geting full screan get implemtting implicit wait 
+11:57:41,575 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11:57:41,576 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11:57:41,577 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11:57:41,578 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11:57:41,578 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ercan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+11:57:46,292 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11:57:46,293 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11:57:46,293 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11:57:46,293 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11:57:46,293 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ercan/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+11:57:46,447 DEBUG devpinoyLogger:155 -  Test execustion completed
