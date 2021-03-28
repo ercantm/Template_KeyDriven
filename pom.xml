@@ -5,9 +5,9 @@
 	<groupId>com.teplate</groupId>
 	<artifactId>Teplate1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	
+
 	<build>
-	
+
 		<resources>
 			<resource>
 				<directory>src\main\java\resources</directory>
@@ -51,11 +51,11 @@
 			</testResource>
 		</testResources>
 	</build>
-	
-	
-	
+
+
+
 	<dependencies>
-	
+
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>

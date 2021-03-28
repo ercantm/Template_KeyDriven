@@ -11,6 +11,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -20,17 +21,21 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.opera.OperaDriver;
 import org.openqa.selenium.opera.OperaOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.DataProvider;
+
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 
 //import com.relevantcodes.extentreports.LogStatus;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import utilities.ExcelReader;
+import utilities.ExtentManager;
 
 public class TestBase {
 
@@ -40,13 +45,17 @@ public class TestBase {
 	 * 
 	 * 
 	 */
+	public static ExtentReports rep = ExtentManager.getInstance();
+	public static ExtentTest test;
 	public static String browser;
 	public static WebDriver driver;
 	public static Properties config;
 	public static Properties OR;
-	public static Logger log=Logger.getLogger("devpinoyLogger");
-	public static ExcelReader excel= new ExcelReader("C:\\Users\\ercan\\Documents\\workspaces\\eclipse-ide-for-java-developers\\Teplate1\\src\\test\\resources\\excel\\data.xlsx");
-   public static WebDriverWait wait;
+	public static Logger log = Logger.getLogger("devpinoyLogger");
+	public static ExcelReader excel = new ExcelReader(
+			"C:\\Users\\ercan\\Documents\\workspaces\\eclipse-ide-for-java-developers\\Teplate1\\src\\test\\resources\\excel\\data.xlsx");
+	public static WebDriverWait wait;
+
 	@SuppressWarnings("deprecation")
 	@BeforeSuite
 
@@ -54,7 +63,7 @@ public class TestBase {
 		config = new Properties();
 		OR = new Properties();
 		File f = new File(System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\Config.properties");
-        log.debug(" file are lounching");
+		log.debug(" file are lounching");
 		FileInputStream fis = new FileInputStream(f);
 		config.load(fis);
 
@@ -108,7 +117,7 @@ public class TestBase {
 			// System.setProperty("webdriver.chrome.driver",
 			// "C:\\Users\\ercan\\Driver\\Chromedriver\\chromedriver.exe");
 			// driver = new ChromeDriver();
-			 log.debug(" Crome is  starting");
+			log.debug(" Crome is  starting");
 		}
 		if (browser.toString().equalsIgnoreCase("edge")) {
 			WebDriverManager.edgedriver().setup();
@@ -129,12 +138,12 @@ public class TestBase {
 
 		}
 		driver.get(config.getProperty("testsiteurl"));
-		log.debug("Test URl is lauching" );
+		log.debug("Test URl is lauching");
 		driver.manage().window().maximize();
 		log.debug(" windows geting full screan get implemtting implicit wait ");
 		driver.manage().timeouts().implicitlyWait(Integer.parseInt(config.getProperty("implicitWait")),
 				TimeUnit.SECONDS);
-		wait=new WebDriverWait(driver,15);
+		wait = new WebDriverWait(driver, 15);
 
 	}
 
@@ -154,15 +163,43 @@ public class TestBase {
 		} else if (location.endsWith("ID")) {
 			driver.findElement(By.id(OR.getProperty(location))).sendKeys(value);
 		}
-		// test.log(LogStatus.INFO, "typing in this : " + location + " enter value as
-		// the " + value);
+		test.log(LogStatus.INFO, "typing in this : " + location + " enter value as the " + value);
+
+	}
+
+	public static void type(By by, String value) {
+
+		driver.findElement(by).sendKeys(value);
+
+		test.log(LogStatus.INFO, "typing in this  : " + by.toString() + "  enter value as the " + value);
 
 	}
 
 	public static void click(By by) {
 		driver.findElement(by).click();
-		
+
 	}
+
+	public static void waitVisible(By by) {
+		wait.until(ExpectedConditions.visibilityOf(driver.findElement(by)));
+
+		test.log(LogStatus.INFO, "waiting for the visibility of   : " + by.toString() + " element ");
+
+	}
+	public static void waitVisible(WebElement element ) {
+		wait.until(ExpectedConditions.visibilityOf(element));
+
+		test.log(LogStatus.INFO, "waiting for the visibility of   : " + element.toString() + " element ");
+
+	}
+
+	public static void waitClickable(By by) {
+		wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(by)));
+
+		test.log(LogStatus.INFO, "waiting  for the clickable  of   : " + by.toString() + " element ");
+
+	}
+
 	public static boolean isElementPresent(By by) {
 
 		try {
@@ -171,27 +208,39 @@ public class TestBase {
 			return true;
 
 		} catch (NoSuchElementException e) {
-         System.out.println(e.getMessage());
+			System.out.println(e.getMessage());
 			return false;
 		}
-		
-		
-		
 
 	}
 
-	public static void select(By by,String text) {
-		
-		Select select=new  Select(driver.findElement(by));
-		 select.selectByVisibleText(text);
-		
-		
-		}      
-public static void SendText(By by,String text) {
-   driver.findElement(by).sendKeys( text);
-		
-		
-		}  
-	
- 
+	public static void select(By by, String text) {
+
+		Select select = new Select(driver.findElement(by));
+		select.selectByVisibleText(text);
+
+	}
+	public static void select(WebElement element, String text) {
+
+		Select select = new Select(element);
+		select.selectByVisibleText(text);
+
+	}
+	public static void selectbyIndex(WebElement element, int text) {
+
+		Select select = new Select(element);
+		select.selectByIndex(text);
+
+	}
+	public static void selectbyValue(WebElement element, String text) {
+
+		Select select = new Select(element);
+		select.selectByValue(text);
+
+	}
+	public static void SendText(By by, String text) {
+		driver.findElement(by).sendKeys(text);
+
+	}
+
 }
