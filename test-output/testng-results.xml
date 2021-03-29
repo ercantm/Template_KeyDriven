@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="2" failed="0" skipped="4">
   <reporter-output>
+    <line>
+      <![CDATA[LOGINASWORKER   checking  test  case run mode. if run mode is no: test will be skipped.]]>
+    </line>
     <line>
       <![CDATA[ valid email is entered]]>
     </line>
@@ -14,16 +17,56 @@
       <![CDATA[loginAsWorker   test is succefully tested]]>
     </line>
     <line>
+      <![CDATA[LOGINASWORKER   checking  test  case run mode. if run mode is no: test will be skipped.]]>
+    </line>
+    <line>
+      <![CDATA[loginAsWorker   test is  skipped the test as run mode is no ]]>
+    </line>
+    <line>
+      <![CDATA[LOGINASWORKER   checking  test  case run mode. if run mode is no: test will be skipped.]]>
+    </line>
+    <line>
+      <![CDATA[loginAsWorker   test is  skipped the test as run mode is no ]]>
+    </line>
+    <line>
+      <![CDATA[LOGINASWORKER   checking  test  case run mode. if run mode is no: test will be skipped.]]>
+    </line>
+    <line>
+      <![CDATA[loginAsWorker   test is  skipped the test as run mode is no ]]>
+    </line>
+    <line>
+      <![CDATA[LOGINASWORKER   checking  test  case run mode. if run mode is no: test will be skipped.]]>
+    </line>
+    <line>
+      <![CDATA[loginAsWorker   test is  skipped the test as run mode is no ]]>
+    </line>
+    <line>
+      <![CDATA[CURTAINTRACKONLY   checking  test  case run mode. if run mode is no: test will be skipped.]]>
+    </line>
+    <line>
+      <![CDATA[Dropdown has been selected!]]>
+    </line>
+    <line>
       <![CDATA[CurtainTrackOnly   test is succefully tested]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-03-28T11:57:40 EDT" name="Suite" finished-at="2021-03-28T11:57:46 EDT" duration-ms="5501">
+  <suite started-at="2021-03-29T00:46:49 EDT" name="Suite" finished-at="2021-03-29T00:46:56 EDT" duration-ms="7086">
     <groups>
     </groups>
-    <test started-at="2021-03-28T11:57:40 EDT" name="OTRT Login Test" finished-at="2021-03-28T11:57:41 EDT" duration-ms="995">
+    <test started-at="2021-03-29T00:46:49 EDT" name="OTRT Login Test" finished-at="2021-03-29T00:46:51 EDT" duration-ms="2325">
       <class name="testCases.LoginTest">
-        <test-method signature="loginAsWorker()[pri:0, instance:testCases.LoginTest@13f17eb4]" started-at="2021-03-28T11:57:40 EDT" name="loginAsWorker" finished-at="2021-03-28T11:57:41 EDT" duration-ms="706" status="PASS">
+        <test-method signature="loginAsWorker(java.util.Hashtable)[pri:0, instance:testCases.LoginTest@3f0846c6]" started-at="2021-03-29T00:46:49 EDT" name="loginAsWorker" data-provider="dp" finished-at="2021-03-29T00:46:51 EDT" duration-ms="1840" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Amerika254, email=ercan@ontherighttrack.com, runmode=Y}]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
+            <line>
+              <![CDATA[LOGINASWORKER   checking  test  case run mode. if run mode is no: test will be skipped.]]>
+            </line>
             <line>
               <![CDATA[ valid email is entered]]>
             </line>
@@ -38,22 +81,248 @@
             </line>
           </reporter-output>
         </test-method> <!-- loginAsWorker -->
+        <test-method signature="loginAsWorker(java.util.Hashtable)[pri:0, instance:testCases.LoginTest@3f0846c6]" started-at="2021-03-29T00:46:51 EDT" name="loginAsWorker" data-provider="dp" finished-at="2021-03-29T00:46:51 EDT" duration-ms="2" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=, email=, runmode=N}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Test is skipping  bacouse of run mode ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Test is skipping  bacouse of run mode 
+at testCases.LoginTest.loginAsWorker(LoginTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+            <line>
+              <![CDATA[LOGINASWORKER   checking  test  case run mode. if run mode is no: test will be skipped.]]>
+            </line>
+            <line>
+              <![CDATA[loginAsWorker   test is  skipped the test as run mode is no ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginAsWorker -->
+        <test-method signature="loginAsWorker(java.util.Hashtable)[pri:0, instance:testCases.LoginTest@3f0846c6]" started-at="2021-03-29T00:46:51 EDT" name="loginAsWorker" data-provider="dp" finished-at="2021-03-29T00:46:51 EDT" duration-ms="3" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=, email=, runmode=N}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Test is skipping  bacouse of run mode ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Test is skipping  bacouse of run mode 
+at testCases.LoginTest.loginAsWorker(LoginTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+            <line>
+              <![CDATA[LOGINASWORKER   checking  test  case run mode. if run mode is no: test will be skipped.]]>
+            </line>
+            <line>
+              <![CDATA[loginAsWorker   test is  skipped the test as run mode is no ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginAsWorker -->
+        <test-method signature="loginAsWorker(java.util.Hashtable)[pri:0, instance:testCases.LoginTest@3f0846c6]" started-at="2021-03-29T00:46:51 EDT" name="loginAsWorker" data-provider="dp" finished-at="2021-03-29T00:46:51 EDT" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=, email=, runmode=}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Test is skipping  bacouse of run mode ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Test is skipping  bacouse of run mode 
+at testCases.LoginTest.loginAsWorker(LoginTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+            <line>
+              <![CDATA[LOGINASWORKER   checking  test  case run mode. if run mode is no: test will be skipped.]]>
+            </line>
+            <line>
+              <![CDATA[loginAsWorker   test is  skipped the test as run mode is no ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginAsWorker -->
+        <test-method signature="loginAsWorker(java.util.Hashtable)[pri:0, instance:testCases.LoginTest@3f0846c6]" started-at="2021-03-29T00:46:51 EDT" name="loginAsWorker" data-provider="dp" finished-at="2021-03-29T00:46:51 EDT" duration-ms="7" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=, email=, runmode=}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Test is skipping  bacouse of run mode ]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Test is skipping  bacouse of run mode 
+at testCases.LoginTest.loginAsWorker(LoginTest.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+            <line>
+              <![CDATA[LOGINASWORKER   checking  test  case run mode. if run mode is no: test will be skipped.]]>
+            </line>
+            <line>
+              <![CDATA[loginAsWorker   test is  skipped the test as run mode is no ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginAsWorker -->
       </class> <!-- testCases.LoginTest -->
     </test> <!-- OTRT Login Test -->
-    <test started-at="2021-03-28T11:57:41 EDT" name="Createa Straight Track Test" finished-at="2021-03-28T11:57:46 EDT" duration-ms="4489">
+    <test started-at="2021-03-29T00:46:51 EDT" name="Createa Straight Track Test" finished-at="2021-03-29T00:46:56 EDT" duration-ms="4743">
       <class name="testCases.CreateNewQuoteTest">
-        <test-method is-config="true" signature="setUP()[pri:0, instance:testCases.CreateNewQuoteTest@20f12539]" started-at="2021-03-28T11:57:34 EDT" name="setUP" finished-at="2021-03-28T11:57:40 EDT" duration-ms="6798" status="PASS">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:testCases.CreateNewQuoteTest@40cb698e]" started-at="2021-03-29T00:46:44 EDT" name="setUP" finished-at="2021-03-29T00:46:49 EDT" duration-ms="4570" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUP -->
-        <test-method signature="CurtainTrackOnly()[pri:0, instance:testCases.CreateNewQuoteTest@20f12539]" started-at="2021-03-28T11:57:41 EDT" name="CurtainTrackOnly" finished-at="2021-03-28T11:57:46 EDT" duration-ms="4460" status="PASS">
+        <test-method signature="CurtainTrackOnly()[pri:0, instance:testCases.CreateNewQuoteTest@40cb698e]" started-at="2021-03-29T00:46:51 EDT" name="CurtainTrackOnly" finished-at="2021-03-29T00:46:56 EDT" duration-ms="4719" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[CURTAINTRACKONLY   checking  test  case run mode. if run mode is no: test will be skipped.]]>
+            </line>
+            <line>
+              <![CDATA[Dropdown has been selected!]]>
+            </line>
             <line>
               <![CDATA[CurtainTrackOnly   test is succefully tested]]>
             </line>
           </reporter-output>
         </test-method> <!-- CurtainTrackOnly -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CreateNewQuoteTest@20f12539]" started-at="2021-03-28T11:57:46 EDT" name="tearDown" finished-at="2021-03-28T11:57:46 EDT" duration-ms="126" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CreateNewQuoteTest@40cb698e]" started-at="2021-03-29T00:46:56 EDT" name="tearDown" finished-at="2021-03-29T00:46:56 EDT" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

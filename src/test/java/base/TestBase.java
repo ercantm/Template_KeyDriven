@@ -7,6 +7,7 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.NoSuchElementException;
@@ -24,8 +25,10 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Reporter;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+import org.testng.asserts.SoftAssert;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -36,6 +39,7 @@ import com.relevantcodes.extentreports.LogStatus;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import utilities.ExcelReader;
 import utilities.ExtentManager;
+import utilities.TestUtil;
 
 public class TestBase {
 
@@ -45,6 +49,7 @@ public class TestBase {
 	 * 
 	 * 
 	 */
+	public static SoftAssert soft = new SoftAssert();
 	public static ExtentReports rep = ExtentManager.getInstance();
 	public static ExtentTest test;
 	public static String browser;
@@ -151,6 +156,7 @@ public class TestBase {
 	public void tearDown() {
 		if (driver != null) {
 			driver.close();
+			soft.assertAll();
 		}
 		log.debug(" Test execustion completed");
 	}
@@ -186,7 +192,8 @@ public class TestBase {
 		test.log(LogStatus.INFO, "waiting for the visibility of   : " + by.toString() + " element ");
 
 	}
-	public static void waitVisible(WebElement element ) {
+
+	public static void waitVisible(WebElement element) {
 		wait.until(ExpectedConditions.visibilityOf(element));
 
 		test.log(LogStatus.INFO, "waiting for the visibility of   : " + element.toString() + " element ");
@@ -220,26 +227,65 @@ public class TestBase {
 		select.selectByVisibleText(text);
 
 	}
+
 	public static void select(WebElement element, String text) {
 
 		Select select = new Select(element);
 		select.selectByVisibleText(text);
 
 	}
+
 	public static void selectbyIndex(WebElement element, int text) {
 
 		Select select = new Select(element);
 		select.selectByIndex(text);
 
 	}
+
 	public static void selectbyValue(WebElement element, String text) {
 
 		Select select = new Select(element);
 		select.selectByValue(text);
 
 	}
+
 	public static void SendText(By by, String text) {
 		driver.findElement(by).sendKeys(text);
+
+	}
+
+	public static void softAssert(String actual, String expected) {
+		try {
+			Assert.assertEquals(expected, actual);
+
+		} catch (Throwable t) {
+			log.info(expected + " and " + actual + " is not mattching  ");
+		}
+
+	}
+
+	public static void verifyEquals(String actual, String expected) throws IOException {
+		
+		
+		try {
+			Assert.assertEquals(expected, actual);
+
+		} catch (Throwable t) {
+			TestUtil.captureScreenshot();
+			//reportrNG
+			Reporter.log("<br>");
+			Reporter.log("Click to see Screenshot");
+			Reporter.log("verification of these  " + expected + " and " + actual + "  failed and reason is "+t.getMessage());
+			Reporter.log("<a target=\"_blank\" href=" + TestUtil.screenshotName + ">Screenshot</a>");
+
+			Reporter.log("<br>");
+			Reporter.log("<a target=\"_blank\" href=" + TestUtil.screenshotName + "><img src=" + TestUtil.screenshotName
+					+ " height=200 width=200></img></a>");
+			// Extent Report
+			test.log(LogStatus.SKIP, "verification of these  " + expected + " and " + actual + "  failed"+ " and   Failled with this exception:   "+ t.getMessage());
+			test.log(LogStatus.FAIL, test.addScreenCapture(TestUtil.screenshotName));
+			log.info(expected + " and " + actual + " is not mattching  ");
+		}
 
 	}
 

@@ -1,7 +1,0 @@
--------------------------------------------------------------------------------
-Test set: TestSuite
--------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 7.611 s <<< FAILURE! - in TestSuite
-testCases.TestFailure.setUP  Time elapsed: 6.43 s  <<< FAILURE!
-java.lang.NumberFormatException: null
-

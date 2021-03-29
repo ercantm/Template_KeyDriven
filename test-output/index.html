@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-skipped">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,36 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">6 methods,  4 skipped,  2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.LoginTest" class="method navigator-link" hash-for-method="loginAsWorker({password=, email=, runmode=})">loginAsWorker({password=, email=, runmode=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.LoginTest" class="method navigator-link" hash-for-method="loginAsWorker({password=, email=, runmode=N})">loginAsWorker({password=, email=, runmode=N})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.LoginTest" class="method navigator-link" hash-for-method="loginAsWorker({password=, email=, runmode=N})">loginAsWorker({password=, email=, runmode=N})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.LoginTest" class="method navigator-link" hash-for-method="loginAsWorker({password=, email=, runmode=})">loginAsWorker({password=, email=, runmode=})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -109,7 +138,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.LoginTest" class="method navigator-link" hash-for-method="loginAsWorker">loginAsWorker</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCases.LoginTest" class="method navigator-link" hash-for-method="loginAsWorker({password=Amerika254, email=ercan@ontherighttrack.com, runmode=Y})">loginAsWorker({password=Amerika254, email=ercan@ontherighttrack.com, runmode=Y})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -124,6 +153,66 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginAsWorker({password=, email=, runmode=})">
+                  </a> <!-- loginAsWorker({password=, email=, runmode=}) -->
+                  <span class="method-name">loginAsWorker</span>
+                  <span class="parameters">({password=, email=, runmode=})</span>
+                  <div class="stack-trace">org.testng.SkipException: Test is skipping  bacouse of run mode 
+	at testCases.LoginTest.loginAsWorker(LoginTest.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginAsWorker({password=, email=, runmode=N})">
+                  </a> <!-- loginAsWorker({password=, email=, runmode=N}) -->
+                  <span class="method-name">loginAsWorker</span>
+                  <span class="parameters">({password=, email=, runmode=N})</span>
+                  <div class="stack-trace">org.testng.SkipException: Test is skipping  bacouse of run mode 
+	at testCases.LoginTest.loginAsWorker(LoginTest.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginAsWorker({password=, email=, runmode=N})">
+                  </a> <!-- loginAsWorker({password=, email=, runmode=N}) -->
+                  <span class="method-name">loginAsWorker</span>
+                  <span class="parameters">({password=, email=, runmode=N})</span>
+                  <div class="stack-trace">org.testng.SkipException: Test is skipping  bacouse of run mode 
+	at testCases.LoginTest.loginAsWorker(LoginTest.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginAsWorker({password=, email=, runmode=})">
+                  </a> <!-- loginAsWorker({password=, email=, runmode=}) -->
+                  <span class="method-name">loginAsWorker</span>
+                  <span class="parameters">({password=, email=, runmode=})</span>
+                  <div class="stack-trace">org.testng.SkipException: Test is skipping  bacouse of run mode 
+	at testCases.LoginTest.loginAsWorker(LoginTest.java:18)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -132,9 +221,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginAsWorker">
-                  </a> <!-- loginAsWorker -->
+                  <a name="loginAsWorker({password=Amerika254, email=ercan@ontherighttrack.com, runmode=Y})">
+                  </a> <!-- loginAsWorker({password=Amerika254, email=ercan@ontherighttrack.com, runmode=Y}) -->
                   <span class="method-name">loginAsWorker</span>
+                  <span class="parameters">({password=Amerika254, email=ercan@ontherighttrack.com, runmode=Y})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -219,20 +309,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'CurtainTrackOnly')
 data.setCell(0, 2, 'testCases.CreateNewQuoteTest')
-data.setCell(0, 3, 4460);
+data.setCell(0, 3, 4719);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'loginAsWorker')
 data.setCell(1, 2, 'testCases.LoginTest')
-data.setCell(1, 3, 706);
+data.setCell(1, 3, 1840);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loginAsWorker')
+data.setCell(2, 2, 'testCases.LoginTest')
+data.setCell(2, 3, 7);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'loginAsWorker')
+data.setCell(3, 2, 'testCases.LoginTest')
+data.setCell(3, 3, 3);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'loginAsWorker')
+data.setCell(4, 2, 'testCases.LoginTest')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'loginAsWorker')
+data.setCell(5, 2, 'testCases.LoginTest')
+data.setCell(5, 3, 1);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -244,8 +350,9 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">loginAsWorker</span>
+              <span class="reporter-method-name">loginAsWorker({password=Amerika254, email=ercan@ontherighttrack.com, runmode=Y})</span>
               <div class="reporter-method-output-div">
+                <span class="reporter-method-output">LOGINASWORKER   checking  test  case run mode. if run mode is no: test will be skipped.</span>
                 <span class="reporter-method-output"> valid email is entered</span>
                 <span class="reporter-method-output">valid passwords is entering</span>
                 <span class="reporter-method-output">Succefully entering main page.</span>
@@ -253,8 +360,38 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
+              <span class="reporter-method-name">loginAsWorker({password=, email=, runmode=})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">LOGINASWORKER   checking  test  case run mode. if run mode is no: test will be skipped.</span>
+                <span class="reporter-method-output">loginAsWorker   test is  skipped the test as run mode is no </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginAsWorker({password=, email=, runmode=N})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">LOGINASWORKER   checking  test  case run mode. if run mode is no: test will be skipped.</span>
+                <span class="reporter-method-output">loginAsWorker   test is  skipped the test as run mode is no </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginAsWorker({password=, email=, runmode=N})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">LOGINASWORKER   checking  test  case run mode. if run mode is no: test will be skipped.</span>
+                <span class="reporter-method-output">loginAsWorker   test is  skipped the test as run mode is no </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginAsWorker({password=, email=, runmode=})</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">LOGINASWORKER   checking  test  case run mode. if run mode is no: test will be skipped.</span>
+                <span class="reporter-method-output">loginAsWorker   test is  skipped the test as run mode is no </span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
               <span class="reporter-method-name">CurtainTrackOnly</span>
               <div class="reporter-method-output-div">
+                <span class="reporter-method-output">CURTAINTRACKONLY   checking  test  case run mode. if run mode is no: test will be skipped.</span>
+                <span class="reporter-method-output">Dropdown has been selected!</span>
                 <span class="reporter-method-output">CurtainTrackOnly   test is succefully tested</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -282,19 +419,35 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.LoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">loginAsWorker</span>
-                <span class="method-start">6831 ms</span>
+                <span class="method-name">loginAsWorker({password=Amerika254, email=ercan@ontherighttrack.com, runmode=Y})</span>
+                <span class="method-start">4627 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginAsWorker({password=, email=, runmode=N})</span>
+                <span class="method-start">6674 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginAsWorker({password=, email=, runmode=N})</span>
+                <span class="method-start">6735 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginAsWorker({password=, email=, runmode=})</span>
+                <span class="method-start">6797 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginAsWorker({password=, email=, runmode=})</span>
+                <span class="method-start">6850 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.CreateNewQuoteTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">CurtainTrackOnly</span>
-                <span class="method-start">7811 ms</span>
+                <span class="method-start">6915 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">12303 ms</span>
+                <span class="method-start">11663 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -41,7 +41,7 @@ public class TestUtil extends TestBase {
 		
 		Hashtable<String,String> table = null;
 
-		for (int rowNum = 2; rowNum <= rows; rowNum++) { // 2
+		for (int rowNum = 2; rowNum <=rows; rowNum++) { // 2
 
 			table = new Hashtable<String,String>();
 			

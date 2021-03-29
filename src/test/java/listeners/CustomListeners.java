@@ -13,6 +13,7 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.Reporter;
+import org.testng.SkipException;
 
 import com.relevantcodes.extentreports.LogStatus;
 
@@ -22,14 +23,21 @@ import utilities.TestConfig;
 import utilities.TestUtil;
 
 public class CustomListeners extends TestBase implements ITestListener,ISuiteListener {
-
+String messageBody;
 	public void onTestStart(ITestResult result) {
-	
-		
+		test = rep.startTest(result.getName().toUpperCase());
+		//checking run mode in excell 	
+	if(!TestUtil.isTestRunnable(result.getName(), excel)){
+		throw new SkipException(" Skking the  "+result.getName()+" test becauseuse of runmode is no ");	
+	}
+		test.log(LogStatus.INFO, result.getName().toUpperCase()+ "   checking  test  case run mode. if run mode is no: test will be skipped.");
+		Reporter.log( result.getName().toUpperCase()+ "   checking  test  case run mode. if run mode is no: test will be skipped.");
 	}
 
 	public void onTestSuccess(ITestResult result) {
+		
 		Reporter.log(result.getName().toString()+"   test is succefully tested");
+		
 		test.log(LogStatus.PASS, result.getName().toUpperCase()+"  Passed");
 		rep.endTest(test);
 		rep.flush();
@@ -56,8 +64,8 @@ public class CustomListeners extends TestBase implements ITestListener,ISuiteLis
 	}
 
 	public void onTestSkipped(ITestResult result) {
-		Reporter.log(result.getName().toString()+"   test is  skipped");
-		test.log(LogStatus.SKIP, result.getName().toUpperCase()+ "   skipped ");
+		Reporter.log(result.getName().toString()+"   test is  skipped the test as run mode is no ");
+		test.log(LogStatus.SKIP, result.getName().toUpperCase()+ "   skipped the test  because of runmode.");
 		rep.endTest(test);
 		rep.flush();
 	}
@@ -82,25 +90,29 @@ public class CustomListeners extends TestBase implements ITestListener,ISuiteLis
 
 	
 	public void onFinish(ISuite suite) {
-//		MonitoringMail mail = new MonitoringMail();
-//		 
-//		try {
-//			TestConfig.messageBody = "http://" + InetAddress.getLocalHost().getHostAddress()
-//					+ ":8080/job/DataDrivenLiveProject/Extent_Reports/";
-//		} catch (UnknownHostException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-//	
-//		try {
-//			mail.sendMail(TestConfig.server, TestConfig.from, TestConfig.to, TestConfig.subject,TestConfig.messageBody);
-//		} catch (AddressException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		} catch (MessagingException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
+		MonitoringMail mail = new MonitoringMail();
+		 
+	
+			try {
+				TestConfig.messageBody = "http://" + InetAddress.getLocalHost().getHostAddress()
+						+ ":8080/job/OTRT_KeyDriven/Extents_20_20Report/";
+			} catch (UnknownHostException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+		
+			
+		
+			try {
+				mail.sendMail(TestConfig.server, TestConfig.from, TestConfig.to, TestConfig.subject,TestConfig.messageBody);
+			} catch (AddressException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (MessagingException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		
 		
 	}
 

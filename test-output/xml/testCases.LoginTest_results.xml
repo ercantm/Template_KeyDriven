@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="OTRT Login Test"
-           tests="1"
+           tests="5"
            failures="0"
            errors="0"
-           skipped="0"
-           time="0.706">
+           skipped="4"
+           time="1.853">
   <properties />
   
+            <testcase name="loginAsWorker" time="0.0" classname="testCases.LoginTest">
+          <skipped />
+    </testcase>
+            <testcase name="loginAsWorker" time="0.0" classname="testCases.LoginTest">
+          <skipped />
+    </testcase>
+            <testcase name="loginAsWorker" time="0.0" classname="testCases.LoginTest">
+          <skipped />
+    </testcase>
+            <testcase name="loginAsWorker" time="0.0" classname="testCases.LoginTest">
+          <skipped />
+    </testcase>
   
-            <testcase name="loginAsWorker" time="0.706" classname="testCases.LoginTest" />
+            <testcase name="loginAsWorker" time="1.840" classname="testCases.LoginTest" />
       
 </testsuite>

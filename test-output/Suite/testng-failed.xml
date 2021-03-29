@@ -6,15 +6,15 @@
     <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
     <listener class-name="listeners.CustomListeners"/>
   </listeners>
-  <test thread-count="5" name="Createa Straight Track Test(failed)">
+  <test thread-count="5" name="OTRT Login Test(failed)">
     <classes>
-      <class name="testCases.CreateNewQuoteTest">
+      <class name="testCases.LoginTest">
         <methods>
-          <include name="CurtainTrackOnly"/>
+          <include name="loginAsWorker" invocation-numbers="1 2 3 4"/>
           <include name="setUP"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testCases.CreateNewQuoteTest -->
+      </class> <!-- testCases.LoginTest -->
     </classes>
-  </test> <!-- Createa Straight Track Test(failed) -->
+  </test> <!-- OTRT Login Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
