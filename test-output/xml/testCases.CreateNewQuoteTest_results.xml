@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="4.719">
+           time="4.344">
   <properties />
   
   
-            <testcase name="CurtainTrackOnly" time="4.719" classname="testCases.CreateNewQuoteTest" />
+            <testcase name="CurtainTrackOnly" time="4.344" classname="testCases.CreateNewQuoteTest" />
       
 </testsuite>

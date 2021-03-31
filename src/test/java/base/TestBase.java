@@ -65,6 +65,7 @@ public class TestBase {
 	@BeforeSuite
 
 	public void setUP() throws IOException {
+		if (driver == null) {
 		config = new Properties();
 		OR = new Properties();
 		File f = new File(System.getProperty("user.dir") + "\\src\\test\\resources\\properties\\Config.properties");
@@ -151,6 +152,7 @@ public class TestBase {
 		wait = new WebDriverWait(driver, 15);
 
 	}
+	}
 
 	@AfterSuite
 	public void tearDown() {
@@ -170,6 +172,7 @@ public class TestBase {
 			driver.findElement(By.id(OR.getProperty(location))).sendKeys(value);
 		}
 		test.log(LogStatus.INFO, "typing in this : " + location + " enter value as the " + value);
+		Reporter.log("typing in this : " + location + " enter value as the " + value);
 
 	}
 
@@ -178,15 +181,35 @@ public class TestBase {
 		driver.findElement(by).sendKeys(value);
 
 		test.log(LogStatus.INFO, "typing in this  : " + by.toString() + "  enter value as the " + value);
+		Reporter.log("typing in this : " + by.toString() + " enter value as the " + value);
+	}
 
+	public static void type(WebElement element, String value) {
+
+		element.sendKeys(value);
+
+		test.log(LogStatus.INFO, "typing in this  : " + element.toString() + "  enter value as the " + value);
+		Reporter.log("typing in this : " + element.toString() + " enter value as the " + value);
 	}
 
 	public static void click(By by) {
 		driver.findElement(by).click();
+		test.log(LogStatus.INFO, "clicking  in this  : " + by.toString() + " bottom");
+		Reporter.log("clicking  in this  : " + by.toString() + " bottom");
+
+	}
+
+	public static void click(WebElement element) {
+		element.click();
+		test.log(LogStatus.INFO, "clicking  in this  : " + element.toString() + " bottom");
+		Reporter.log("clicking  in this  : " + element.toString() + " bottom");
 
 	}
 
 	public static void waitVisible(By by) {
+
+		test.log(LogStatus.INFO, "waiting  in this  : " + by.toString() + " web elemet to be vissible ");
+		Reporter.log(by.toString() + " web elemet to be vissible");
 		wait.until(ExpectedConditions.visibilityOf(driver.findElement(by)));
 
 		test.log(LogStatus.INFO, "waiting for the visibility of   : " + by.toString() + " element ");
@@ -194,6 +217,10 @@ public class TestBase {
 	}
 
 	public static void waitVisible(WebElement element) {
+
+		test.log(LogStatus.INFO, "waiting  in this  : " + element.toString() + " web elemet to be vissible ");
+		Reporter.log("waiting  in this  : " + element.toString() + " web elemet to be vissible ");
+
 		wait.until(ExpectedConditions.visibilityOf(element));
 
 		test.log(LogStatus.INFO, "waiting for the visibility of   : " + element.toString() + " element ");
@@ -201,14 +228,26 @@ public class TestBase {
 	}
 
 	public static void waitClickable(By by) {
+		test.log(LogStatus.INFO, "waiting  in this  : " + by.toString() + " web elemet to be clickable  ");
+		Reporter.log("waiting  in this  : " + by.toString() + " web elemet to be clickable  ");
 		wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(by)));
 
 		test.log(LogStatus.INFO, "waiting  for the clickable  of   : " + by.toString() + " element ");
 
 	}
 
+	public static void waitClickable(WebElement element) {
+
+		wait.until(ExpectedConditions.elementToBeClickable(element));
+
+		test.log(LogStatus.INFO, "waiting  for the clickable  of   : " + element.toString() + " element ");
+		Reporter.log("waiting  in this  : " + element.toString() + " web elemet to be clickable  ");
+	}
+
 	public static boolean isElementPresent(By by) {
 
+		test.log(LogStatus.INFO, "waiting  in this  : " + by.toString() + " elemet to be peresent   ");
+		Reporter.log("waiting  in this  : " + by.toString() + " elemet to be peresent   ");
 		try {
 
 			driver.findElement(by);
@@ -220,69 +259,85 @@ public class TestBase {
 		}
 
 	}
-
+ 
 	public static void select(By by, String text) {
-
+		test.log(LogStatus.INFO, "selecting  in this  : " + by.toString() + "  enter value as the " + text);
+		Reporter.log("selecting in this : " + by.toString() + " enter value as the " + text);
 		Select select = new Select(driver.findElement(by));
 		select.selectByVisibleText(text);
 
 	}
 
 	public static void select(WebElement element, String text) {
-
+		test.log(LogStatus.INFO, "selecting  in this  : " + element.toString() + "  enter value as the " + text);
+		Reporter.log("selecting in this : " + element.toString() + " enter value as the " + text);
 		Select select = new Select(element);
 		select.selectByVisibleText(text);
 
 	}
 
 	public static void selectbyIndex(WebElement element, int text) {
-
+		test.log(LogStatus.INFO,
+				"selecting  in this  : " + element.toString() + "  enter index number  as the " + text);
+		Reporter.log("selecting in this : " + element.toString() + " enter index number  as the " + text);
 		Select select = new Select(element);
 		select.selectByIndex(text);
 
 	}
 
 	public static void selectbyValue(WebElement element, String text) {
-
+		test.log(LogStatus.INFO,
+				"selecting  in this  : " + element.toString() + "  enter index number  as the " + text);
+		Reporter.log("selecting in this : " + element.toString() + " enter index number  as the " + text);
 		Select select = new Select(element);
 		select.selectByValue(text);
 
 	}
 
-	public static void SendText(By by, String text) {
-		driver.findElement(by).sendKeys(text);
-
-	}
-
 	public static void softAssert(String actual, String expected) {
-		try {
-			Assert.assertEquals(expected, actual);
 
-		} catch (Throwable t) {
-			log.info(expected + " and " + actual + " is not mattching  ");
-		}
+		test.log(LogStatus.INFO, "typing in this  : " + expected + actual + " soft checking make sure they are same ");
+		Reporter.log("typing in this  : " + expected + actual + " soft checking make sure they are same ");
+
+		soft.assertEquals(expected, actual);
+		Reporter.log("<br>");
+		Reporter.log("Click to see Screenshot");
+		Reporter.log("verification of these  " + expected + " and " + actual + "  failed and reason is ");
+		Reporter.log("<a target=\"_blank\" href=" + TestUtil.screenshotName + ">Screenshot</a>");
+
+		Reporter.log("<br>");
+		Reporter.log("<a target=\"_blank\" href=" + TestUtil.screenshotName + "><img src=" + TestUtil.screenshotName
+				+ " height=200 width=200></img></a>");
+		// Extent Report
+		test.log(LogStatus.SKIP, "verification of these  " + expected + " and " + actual + "  failed"
+				+ " and   Failled with this exception:   ");
+		test.log(LogStatus.FAIL, test.addScreenCapture(TestUtil.screenshotName));
+		log.info(expected + " and " + actual + " is not mattching  ");
 
 	}
 
 	public static void verifyEquals(String actual, String expected) throws IOException {
-		
-		
+
+		test.log(LogStatus.INFO, "typing in this  : " + expected + actual + " soft checking make sure they are same ");
+		Reporter.log("typing in this  : " + expected + actual + " soft checking make sure they are same ");
 		try {
 			Assert.assertEquals(expected, actual);
 
 		} catch (Throwable t) {
 			TestUtil.captureScreenshot();
-			//reportrNG
+			// reportrNG
 			Reporter.log("<br>");
 			Reporter.log("Click to see Screenshot");
-			Reporter.log("verification of these  " + expected + " and " + actual + "  failed and reason is "+t.getMessage());
+			Reporter.log("verification of these  " + expected + " and " + actual + "  failed and reason is "
+					+ t.getMessage());
 			Reporter.log("<a target=\"_blank\" href=" + TestUtil.screenshotName + ">Screenshot</a>");
 
 			Reporter.log("<br>");
 			Reporter.log("<a target=\"_blank\" href=" + TestUtil.screenshotName + "><img src=" + TestUtil.screenshotName
 					+ " height=200 width=200></img></a>");
 			// Extent Report
-			test.log(LogStatus.SKIP, "verification of these  " + expected + " and " + actual + "  failed"+ " and   Failled with this exception:   "+ t.getMessage());
+			test.log(LogStatus.SKIP, "verification of these  " + expected + " and " + actual + "  failed"
+					+ " and   Failled with this exception:   " + t.getMessage());
 			test.log(LogStatus.FAIL, test.addScreenCapture(TestUtil.screenshotName));
 			log.info(expected + " and " + actual + " is not mattching  ");
 		}

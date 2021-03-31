@@ -114,12 +114,12 @@
                       <br/>
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.LoginTest" class="method navigator-link" hash-for-method="loginAsWorker({password=, email=, runmode=N})">loginAsWorker({password=, email=, runmode=N})</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCases.LoginTest" class="method navigator-link" hash-for-method="loginAsWorker({password=, email=, runmode=})">loginAsWorker({password=, email=, runmode=})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testCases.LoginTest" class="method navigator-link" hash-for-method="loginAsWorker({password=, email=, runmode=})">loginAsWorker({password=, email=, runmode=})</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testCases.LoginTest" class="method navigator-link" hash-for-method="loginAsWorker({password=, email=, runmode=N})">loginAsWorker({password=, email=, runmode=N})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Suite -->
@@ -187,10 +187,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginAsWorker({password=, email=, runmode=N})">
-                  </a> <!-- loginAsWorker({password=, email=, runmode=N}) -->
+                  <a name="loginAsWorker({password=, email=, runmode=})">
+                  </a> <!-- loginAsWorker({password=, email=, runmode=}) -->
                   <span class="method-name">loginAsWorker</span>
-                  <span class="parameters">({password=, email=, runmode=N})</span>
+                  <span class="parameters">({password=, email=, runmode=})</span>
                   <div class="stack-trace">org.testng.SkipException: Test is skipping  bacouse of run mode 
 	at testCases.LoginTest.loginAsWorker(LoginTest.java:18)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
@@ -200,10 +200,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginAsWorker({password=, email=, runmode=})">
-                  </a> <!-- loginAsWorker({password=, email=, runmode=}) -->
+                  <a name="loginAsWorker({password=, email=, runmode=N})">
+                  </a> <!-- loginAsWorker({password=, email=, runmode=N}) -->
                   <span class="method-name">loginAsWorker</span>
-                  <span class="parameters">({password=, email=, runmode=})</span>
+                  <span class="parameters">({password=, email=, runmode=N})</span>
                   <div class="stack-trace">org.testng.SkipException: Test is skipping  bacouse of run mode 
 	at testCases.LoginTest.loginAsWorker(LoginTest.java:18)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
@@ -313,19 +313,19 @@ data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'CurtainTrackOnly')
 data.setCell(0, 2, 'testCases.CreateNewQuoteTest')
-data.setCell(0, 3, 4719);
+data.setCell(0, 3, 4344);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'loginAsWorker')
 data.setCell(1, 2, 'testCases.LoginTest')
-data.setCell(1, 3, 1840);
+data.setCell(1, 3, 773);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'loginAsWorker')
 data.setCell(2, 2, 'testCases.LoginTest')
-data.setCell(2, 3, 7);
+data.setCell(2, 3, 8);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'loginAsWorker')
 data.setCell(3, 2, 'testCases.LoginTest')
-data.setCell(3, 3, 3);
+data.setCell(3, 3, 2);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'loginAsWorker')
 data.setCell(4, 2, 'testCases.LoginTest')
@@ -338,7 +338,7 @@ window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -353,9 +353,14 @@ return data;
               <span class="reporter-method-name">loginAsWorker({password=Amerika254, email=ercan@ontherighttrack.com, runmode=Y})</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">LOGINASWORKER   checking  test  case run mode. if run mode is no: test will be skipped.</span>
+                <span class="reporter-method-output">typing in this : By.xpath: //input[@id='inputEmail3'] enter value as the ercan@ontherighttrack.com</span>
                 <span class="reporter-method-output"> valid email is entered</span>
+                <span class="reporter-method-output">typing in this : By.cssSelector: #inputPassword3 enter value as the Amerika254</span>
                 <span class="reporter-method-output">valid passwords is entering</span>
+                <span class="reporter-method-output">clicking  in this  : By.xpath: //input[@value='SIGN IN'] bottom</span>
                 <span class="reporter-method-output">Succefully entering main page.</span>
+                <span class="reporter-method-output">waiting  in this  : By.xpath: //div[@id='toast-container'] elemet to be peresent   </span>
+                <span class="reporter-method-output">waiting  in this  : By.xpath: //i[@class='fa fa-plus'] elemet to be peresent   </span>
                 <span class="reporter-method-output">loginAsWorker   test is succefully tested</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -374,14 +379,14 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">loginAsWorker({password=, email=, runmode=N})</span>
+              <span class="reporter-method-name">loginAsWorker({password=, email=, runmode=})</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">LOGINASWORKER   checking  test  case run mode. if run mode is no: test will be skipped.</span>
                 <span class="reporter-method-output">loginAsWorker   test is  skipped the test as run mode is no </span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">loginAsWorker({password=, email=, runmode=})</span>
+              <span class="reporter-method-name">loginAsWorker({password=, email=, runmode=N})</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">LOGINASWORKER   checking  test  case run mode. if run mode is no: test will be skipped.</span>
                 <span class="reporter-method-output">loginAsWorker   test is  skipped the test as run mode is no </span>
@@ -391,7 +396,33 @@ return data;
               <span class="reporter-method-name">CurtainTrackOnly</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">CURTAINTRACKONLY   checking  test  case run mode. if run mode is no: test will be skipped.</span>
+                <span class="reporter-method-output">clicking  in this  : By.xpath: //span[normalize-space()='Quotes'] bottom</span>
+                <span class="reporter-method-output">waiting  in this  : By.xpath: //body/anms-root[1]/main[1]/pages[1]/div[2]/div[2]/div[1]/div[2]/quotes[1]/div[2]/div[1]/div[1]/div[1]/div[1]/button[1] web elemet to be clickable  </span>
+                <span class="reporter-method-output">clicking  in this  : By.xpath: //body/anms-root[1]/main[1]/pages[1]/div[2]/div[2]/div[1]/div[2]/quotes[1]/div[2]/div[1]/div[1]/div[1]/div[1]/button[1] bottom</span>
+                <span class="reporter-method-output">waiting  in this  : [[ChromeDriver: chrome on WINDOWS (57adf6801f3ec5d73c285813a6357075)] -> xpath: //div[@class='col-sm-4 form-group inputbutton customerListDropDown float-left']//select[@class='select-dropdown ng-untouched ng-pristine ng-valid ng-star-inserted']] web elemet to be vissible </span>
+                <span class="reporter-method-output">selecting in this : [[ChromeDriver: chrome on WINDOWS (57adf6801f3ec5d73c285813a6357075)] -> xpath: //div[@class='col-sm-4 form-group inputbutton customerListDropDown float-left']//select[@class='select-dropdown ng-untouched ng-pristine ng-valid ng-star-inserted']] enter value as the Test</span>
+                <span class="reporter-method-output">typing in this : By.xpath: //input[@id='curtainCost'] enter value as the Test_KeyDRiven</span>
+                <span class="reporter-method-output">waiting  in this  : By.cssSelector: .col-sm-12.float-left > .col-sm-4.form-group.inputbutton.curtainTypeDropDown.float-left elemet to be peresent   </span>
+                <span class="reporter-method-output">selecting in this : [[ChromeDriver: chrome on WINDOWS (57adf6801f3ec5d73c285813a6357075)] -> xpath: //body/anms-root[1]/main[1]/pages[1]/div[2]/div[2]/div[1]/div[2]/add-quotes[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[4]/div[1]/dropdrown[1]/div[1]/select[1]] enter index number  as the 1</span>
                 <span class="reporter-method-output">Dropdown has been selected!</span>
+                <span class="reporter-method-output">clicking  in this  : By.cssSelector: input[formcontrolname='includeLaborCost'] bottom</span>
+                <span class="reporter-method-output">typing in this : By.cssSelector: #laborCost enter value as the 1500</span>
+                <span class="reporter-method-output">waiting  in this  : [[ChromeDriver: chrome on WINDOWS (57adf6801f3ec5d73c285813a6357075)] -> xpath: //body/anms-root[1]/main[1]/pages[1]/div[2]/div[2]/div[1]/div[2]/add-quotes[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[4]/div[4]/div[5]/input[1]] web elemet to be vissible </span>
+                <span class="reporter-method-output">typing in this : By.cssSelector: #quantity enter value as the 2</span>
+                <span class="reporter-method-output">typing in this : By.cssSelector: #area_floor enter value as the ShowerRoom</span>
+                <span class="reporter-method-output">typing in this : By.xpath: //input[@id='room'] enter value as the 124B</span>
+                <span class="reporter-method-output">typing in this : By.cssSelector: #track_designation enter value as the 124-BCS</span>
+                <span class="reporter-method-output">typing in this : By.xpath: //input[@id='ceiling_height_feet'] enter value as the 9</span>
+                <span class="reporter-method-output">typing in this : By.xpath: //input[@id='ceiling_height_inches'] enter value as the 6</span>
+                <span class="reporter-method-output">clicking  in this  : By.xpath: //input[@formcontrolname='ninety_degree_wall_touches'] bottom</span>
+                <span class="reporter-method-output">selecting in this : [[ChromeDriver: chrome on WINDOWS (57adf6801f3ec5d73c285813a6357075)] -> css selector: body > anms-root:nth-child(1) > main:nth-child(1) > pages:nth-child(3) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) > add-quotes:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > screen2:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > add-track-details:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(1) > div:nth-child(1) > div:nth-child(8) > dropdrown:nth-child(2) > div:nth-child(1) > select:nth-child(1)] enter index number  as the 1: ACT</span>
+                <span class="reporter-method-output">selecting in this : [[ChromeDriver: chrome on WINDOWS (57adf6801f3ec5d73c285813a6357075)] -> xpath: //div[@class='col-sm-3 form-group fabricPatternListDropDown float-left']//select[@class='select-dropdown ng-untouched ng-pristine ng-valid ng-star-inserted']] enter index number  as the 1: 1 Curve</span>
+                <span class="reporter-method-output">typing in this : By.xpath: //input[@id='first_feet'] enter value as the 12</span>
+                <span class="reporter-method-output">typing in this : By.xpath: //input[@id='first_inches'] enter value as the 6</span>
+                <span class="reporter-method-output">typing in this : By.xpath: //input[@id='second_feet'] enter value as the 4</span>
+                <span class="reporter-method-output">typing in this : By.xpath: //input[@id='second_inches'] enter value as the 8</span>
+                <span class="reporter-method-output">selecting in this : [[ChromeDriver: chrome on WINDOWS (57adf6801f3ec5d73c285813a6357075)] -> xpath: //body/anms-root[1]/main[1]/pages[1]/div[2]/div[2]/div[1]/div[2]/add-quotes[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/screen2[1]/div[1]/div[1]/div[1]/div[1]/add-track-details[1]/div[1]/div[1]/div[1]/form[1]/div[1]/div[13]/div[1]/dropdrown[1]/div[1]/select[1]] enter index number  as the 2: 90° 1 ft. Radius Bend</span>
+                <span class="reporter-method-output">waiting  in this  : By.xpath: //input[@value='Add Track'] elemet to be peresent   </span>
                 <span class="reporter-method-output">CurtainTrackOnly   test is succefully tested</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -420,34 +451,34 @@ return data;
               <div class="chronological-class-name">testCases.LoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">loginAsWorker({password=Amerika254, email=ercan@ontherighttrack.com, runmode=Y})</span>
-                <span class="method-start">4627 ms</span>
+                <span class="method-start">4574 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginAsWorker({password=, email=, runmode=N})</span>
-                <span class="method-start">6674 ms</span>
+                <span class="method-start">5596 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginAsWorker({password=, email=, runmode=N})</span>
-                <span class="method-start">6735 ms</span>
+                <span class="method-start">5634 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginAsWorker({password=, email=, runmode=})</span>
-                <span class="method-start">6797 ms</span>
+                <span class="method-start">5691 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginAsWorker({password=, email=, runmode=})</span>
-                <span class="method-start">6850 ms</span>
+                <span class="method-start">5722 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.CreateNewQuoteTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">CurtainTrackOnly</span>
-                <span class="method-start">6915 ms</span>
+                <span class="method-start">5762 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">11663 ms</span>
+                <span class="method-start">10134 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
